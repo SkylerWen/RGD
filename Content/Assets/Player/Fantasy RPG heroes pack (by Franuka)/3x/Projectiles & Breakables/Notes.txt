@@ -1,0 +1,6 @@
+// Each projectile has a main sprite, and a right-facing "impact" animation (3 frames to be played when the projectile collides). 
+Magic spells also have an "initial" sprite which can be used to add a visual effect when the spell is cast, or as a smaller projectile.
+
+// To know the impact animation frame width, just divide the file's width by 3. So for example, "Spear_impact.png" is 54x45px (width x height) and has 3 frames, so its frame size is 18px wide, 45px high.
+
+// Breakable items have a main sprite, a broken sprite, and a "breaking" animation (which consists of the initial state, 3 breaking frames, and the final broken state)
